@@ -1,0 +1,110 @@
+body {
+	font-family: cursive;
+	margin: 0;
+	padding: 0;
+    color: white;
+    margin-top: 90px;
+     background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url(https://images.wallpaperscraft.com/image/single/restaurant_table_interior_modern_style_39288_1920x1080.jpg);
+}
+
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+#logotipo {
+    margin-left: 39.5%;
+    width: 400px;
+    height: 400px;
+}
+h2{
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+
+header {
+  background-color: black;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav a {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.inicio {
+	display: flex;
+	align-items: center;
+}
+
+.imagen {
+	flex: 1;
+}
+
+.contenido {
+	flex: 1;
+	padding: 0 50px;
+    color: white;
+}
+
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+    color: white;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+    text-align: center;
+}
+
+
+footer {
+	background-color: black;
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+}
+footer img {
+    border-radius: 50%;
+}
+
